@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;javaDSACodeChef&apos; to &apos;JavaDSA&apos;" description="Rename resource &apos;javaDSACodeChef&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/javaDSACodeChef" name="JavaDSA" stamp="1727446877593" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;JavaDSA&apos; to &apos;javaDSA&apos;" description="Rename resource &apos;JavaDSA&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JavaDSA" name="javaDSA" stamp="1727447050903" updateReferences="true"/>
+</session>

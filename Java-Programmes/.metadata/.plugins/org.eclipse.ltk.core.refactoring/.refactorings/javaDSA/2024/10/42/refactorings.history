@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;javaDSA.FindAndRemoveNthNodeFromEndLL&apos; to &apos;RemoveNthNodeFromEndLL&apos;&#x0D;&#x0A;- Original project: &apos;javaDSA&apos;&#x0D;&#x0A;- Original element: &apos;javaDSA.FindAndRemoveNthNodeFromEndLL&apos;&#x0D;&#x0A;- Renamed element: &apos;javaDSA.RemoveNthNodeFromEndLL&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FindAndRemoveNthNodeFromEndLL&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;javaDSA{FindAndRemoveNthNodeFromEndLL.java[FindAndRemoveNthNodeFromEndLL" matchStrategy="1" name="RemoveNthNodeFromEndLL" patterns="*" qualified="true" references="true" similarDeclarations="false" stamp="1728973892014" textual="true" version="1.0"/>
+</session>

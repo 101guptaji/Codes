@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"javaBasics","c":"FastReaderInput","l":"FastReaderInput()","u":"%3Cinit%3E()"},{"p":"javaBasics","c":"FastReaderInput","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();

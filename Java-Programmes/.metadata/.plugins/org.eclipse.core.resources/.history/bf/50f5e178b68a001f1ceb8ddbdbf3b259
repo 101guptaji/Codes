@@ -1,0 +1,72 @@
+/*
+ * Given an unsorted array of integers arr[], and a target tar, determine the number of subarrays whose elements sum up to the target value.
+
+	Examples:
+	Input: arr[] = [10, 2, -2, -20, 10] , tar = -10
+	Output: 3
+	Explanation: Subarrays with sum -10 are: [10, 2, -2, -20], [2, -2, -20, 10] and [-20, 10].
+	Input: arr[] = [1, 4, 20, 3, 10, 5] , tar = 33
+	Output: 1
+	Explanation: Subarray with sum 33 is: [20,3,10].
+	Expected Time Complexity: O(n)
+	Expected Auxilary Space: O(n)
+	 */
+package arrays;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class SubArraySum {
+	// Function to count the number of subarrays which adds to the given sum.
+	static int subArray(int[] arr, int tar) {
+		//count of subarrays whose sum = tar
+		int count = 0;
+		//Map to store sum of subarray and their frequency
+		HashMap<Integer, Integer> map = new HashMap<>();
+		//sum of sub Array
+		int sum = 0;
+		for(int x : arr) {
+			sum += x;
+			
+			if(sum == tar) {
+				count++;
+			}
+			
+			if(map.containsKey(sum-tar)) {
+				count += map.get(sum-tar);
+			}
+			map.put(sum, map.getOrDefault(sum, 0)+1);
+		}
+		
+		return count;
+	}
+	
+	public static void main(String[] args) throws IOException {
+	     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	    
+         String line = br.readLine();
+         String[] tokens = line.split(" ");
+
+         // Create an ArrayList to store the integers
+         ArrayList<Integer> array = new ArrayList<>();
+
+         // Parse the tokens into integers and add to the array
+         for (String token : tokens) {
+             array.add(Integer.parseInt(token));
+         }
+
+         int[] arr = new int[array.size()];
+         int idx = 0;
+         for (int i : array) arr[idx++] = i;
+
+         int tar = Integer.parseInt(br.readLine());
+         
+         int res = subArray(arr, tar);
+
+         System.out.println(res);
+	     
+	}
+}

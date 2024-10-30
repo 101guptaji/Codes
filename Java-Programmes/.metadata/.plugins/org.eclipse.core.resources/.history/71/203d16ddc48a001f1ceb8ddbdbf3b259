@@ -1,0 +1,50 @@
+package javaDSA;
+import java.util.*;
+
+public class StackUsingArrayList {
+	private static ArrayList<String> stack;
+	
+	private static void push(String val) {
+		stack.add(val);
+	}
+	
+	private static String pop() {
+		if(!stack.isEmpty()) {
+			return stack.removeLast();
+		}
+		return "";
+	}
+	
+	private static String peak() {
+		if(!stack.isEmpty()) {
+			return stack.getLast();
+		}
+		return "";
+	}
+
+	public static void main(String[] args) {
+		stack = new ArrayList<>();
+		Scanner sc = new Scanner(System.in);
+		int op = sc.nextInt();
+		while(op != -1) {
+			switch(op) {
+			case 0: 
+				//sc.nextLine();
+				String val = sc.nextLine();
+				push(val);
+				break;
+			case 1:
+				String tail = pop();
+				System.out.println(tail);
+				break;
+			case 2:
+				tail = peak();
+				System.out.println(tail);	
+				break;
+			}
+			op = sc.nextInt();
+		}
+
+	}
+
+}

@@ -1,0 +1,47 @@
+                 Eclipse Shortcuts
+1. Change Case: UpperCase= Ctrl+Shift+X;
+			LowerCase = Ctrl+Shift+Y;
+2. Autocomplete = Ctrl+Space;
+3. Main Method = enter "main" then Ctrl+Space;
+4. System.out.println = "sysout"+Ctrl+Space;
+5. Try-Catch block = ALt+Shift+z;
+6. Commenting, uncommenting lines = Ctrl+/;
+7. Commenting, uncommenting blocks = Ctrl+Shift+/;
+8. Rename = Alt + Shift + R
+9. Select text, then Ctrl + Shift + F for formatting.
+10. Selecting class and press F4 to see its Type hierarchy.
+11. close the current file = Ctrl+w;
+12. Close all files = Ctrl+Shift+w;
+13. find/replace in file = Ctrl+f;
+14. Find/Replace in Project = Ctrl+h;
+15. Go to Line(line number) = Ctrl+l;
+16. delete the line in code = Ctrl+d;
+17. Go to last edited place = Ctrl+q;
+18. Shift a line or lines up or down = ALt+up or down arrows;
+
+Shortcuts for quick navigation in Eclipse
+1. Ctrl + 3: Quick access to any menu item or feature in Eclipse
+2. Ctrl + Shift + T: Open a type quickly
+3. Open a resource (e.g., file, image): Ctrl + Shift + R.
+4. Ctrl + O: Quickly navigate to a method in the current class
+5. Ctrl + 1: Shows available code actions and quick fixes
+6. Quickly navigate to the superclass or implemented interface of the current type with Ctrl + T.
+7. Ctrl + Shift + L: Used for “Show Key assist,” previously used for Quicksearch
+8. Ctrl + Q: Quick navigation to the last edit location (last edited line).
+
+Eclipse shortcuts for debugging
+Debug mode:
+1. F5 (Step into): This allows you to enter debug mode.
+2. F6 (Step over): This assists in moving to the next line without leaving debug mode.
+3. F7 (Step out): This allows you to step out/return to the current method/caller in debug mode.
+4. F8 (Resume execution): This allows you to continue executing the program without stopping debugging.
+5. F9 (Toggle breakpoint): This allows you to set or remove a breakpoint on the current line of code. A breakpoint will cause the program to stop executing and enter debug mode.
+
+Application debugging:
+1. Ctrl + F11: Use this to run the last application opened.
+2. F11: Run the program in debug mode, where you can step through the code and inspect variables.
+
+Show Perspectives :
+1. Ctrl + Shift + B: This opens the Breakpoints view, which displays all the breakpoints set in your workspace.
+2. Ctrl + Alt + R: This opens the Debug Perspective, a special view that provides tools and information specifically for debugging.
+3. Ctrl + ↑ + I: Inspect the value of a variable during debugging.

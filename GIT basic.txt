@@ -1,0 +1,71 @@
+Git:
+- version control system
+- a tool to keep track of changes in code.
+- free and open source
+- fast and scalable
+
+Github: 
+- website that allows developers to store and manage thier code using Git.
+- https://github.com
+
+Setting of GIT:
+- Visual Studio
+- using Git Bash
+
+Warning and Meaning:
+1. untracked = new file that git does not yet track.
+2. modified = change in a file
+3. staged = file is ready to be commited 
+4. unmodified = unchanged 
+
+Commands:
+1. git --version => to check if git installed properly
+2. Configuring Git:
+	git config --global user.name "Himanshu Gupta"
+	git config --global user.email "101guptaji@gmail.com"
+	git config --list => to see credentials
+	
+3. Cloning a repository on our local machine
+	git clone <-repository link->
+	
+4. Display the state of the code
+	git status
+	
+5. ls => list all files in the folder
+6. ls -a => list all files (including hidden files) in the folder
+7. cd folderName => change path to folderName
+8. mkdir folderName => to create new folder with folderName
+
+9. Adds new or changed files in your working directory to the Git staging area.
+	git add fileName
+
+10. commit - it is the record of change.
+	git commit -m "some message"
+	
+11. push - upload local repository content to remote repository.
+	git push origin main (where main is the name of branch)
+	
+12. git init => initialize an existing directory as a Git repository
+	
+13. BRANCH & MERGE
+	Isolating work in branches, changing context, and integrating changes
+	1)	git branch => list your branches. a * will appear next to the currently active branch
+	2)	git branch [branch-name] => create a new branch at the current commit
+	3)	git checkout => switch to another branch and check it out into your working directory
+	4)	git merge [branch] => merge the specified branch’s history into the current one
+	5)	git log => show all commits in the current branch’s history
+	
+14. SHARE & UPDATE
+	Retrieving updates from another repository and updating local repository
+	1)	git remote add [alias] [url] => add a git URL as an alias
+	2)	git fetch [alias] => fetch down all the branches from that Git remote
+	3)	git merge [alias]/[branch] => merge a remote branch into your current branch to bring it up to date
+	4)	git push [alias] [branch] => Transmit local branch commits to the remote repository branch
+	5)	git pull => fetch and merge any commits from the tracking remote branch.
+	
+15. 
+
+
+Fork: It is a new repository that shares code and visibility settings with the original "upstream" repository.
+Fork is a rough copy on our git.
+

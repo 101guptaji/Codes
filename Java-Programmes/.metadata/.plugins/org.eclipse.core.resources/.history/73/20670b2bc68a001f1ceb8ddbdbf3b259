@@ -1,0 +1,50 @@
+package javaDSA;
+import java.util.*;
+
+public class StackUsingArrayList {
+	private ArrayList<String> stack = new ArrayList<>();;
+	
+	private void push(String val) {
+		stack.add(val);
+	}
+	
+	private String pop() {
+		if(!stack.isEmpty()) {
+			return stack.removeLast();
+		}
+		return "Stack is Empty";
+	}
+	
+	private String peak() {
+		if(!stack.isEmpty()) {
+			return stack.getLast();
+		}
+		return "Stack is Empty";
+	}
+
+	public static void main(String[] args) {
+		StackUsingArrayList s = new StackUsingArrayList();
+		Scanner sc = new Scanner(System.in);
+		int op = sc.nextInt();
+		while(op != -1) {
+			switch(op) {
+			case 0: 
+				sc.nextLine();
+				String val = sc.nextLine();
+				s.push(val);
+				break;
+			case 1:
+				String ele = s.pop();
+				System.out.println("Popped: " + ele);
+				break;
+			case 2:
+				ele = s.peak();
+				System.out.println("Peeked: " + ele);
+				break;
+			}
+			op = sc.nextInt();
+		}
+
+	}
+
+}

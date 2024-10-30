@@ -1,0 +1,65 @@
+/*
+ * The tower of Hanoi is a famous puzzle where we have three rods and n disks. 
+ * The objective of the puzzle is to move the entire stack to another rod. You are given the number of discs n. 
+ * Initially, these discs are in the rod 1. You need to print all the steps of discs movement so that all the discs reach the 3rd rod. 
+ * Also, you need to find the total moves.
+ * Note: The discs are arranged such that the top disc is numbered 1 and the bottom-most disc is numbered n. 
+ * 	The objective of the puzzle is to move the entire stack to one of the other rods, obeying the following rules:
+	Only one disk may be moved at a time.
+	Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack or on an empty rod.
+	No disk may be placed on top of a disk that is smaller than it.
+	With three disks, the puzzle can be solved in seven moves. 
+	The minimal number of moves required to solve a Tower of Hanoi puzzle is 2^n − 1, where n is the number of disks. 
+	
+	Examples:
+	Input: n = 2
+	Output:
+	move disk 1 from rod 1 to rod 2
+	move disk 2 from rod 1 to rod 3
+	move disk 1 from rod 2 to rod 3
+	3
+
+	Input: n = 3
+	Output:
+	move disk 1 from rod 1 to rod 3
+	move disk 2 from rod 1 to rod 2
+	move disk 1 from rod 3 to rod 2
+	move disk 3 from rod 1 to rod 3
+	move disk 1 from rod 2 to rod 1
+	move disk 2 from rod 2 to rod 3
+	move disk 1 from rod 1 to rod 3
+	7
+ */
+package javaDSA;
+
+import java.util.*;
+
+class TowerOfHanoi {
+	//the function toh() that takes following parameters: n (number of discs), from (The rod number from which we move the disc), to (The rod number to which we move the disc), aux (The rod that is used as an auxiliary rod) and prints the required moves inside function body
+	public static long toh(int n, int from, int aux, int to) {
+	     // Your code here
+	     if(n==1){
+	         System.out.println("move disk "+n+" from rod "+from+" to rod "+to);
+	         return n;
+	     }
+	     //move disk from -> aux and then aux -> to
+	     long left = toh(n-1, from, to, aux);
+	     System.out.println("move disk "+n+" from rod "+from+" to rod "+to);
+	     long right = toh(n-1, aux, from, to);
+	     
+	     return left+right+1;
+	 }
+	
+	 public static void main(String[] args) {
+	     Scanner sc = new Scanner(System.in);
+         int N;
+
+         // taking input N
+         N = sc.nextInt();
+
+         // calling toh() method
+         System.out.println(toh(N, 1, 2, 3));
+	 }
+ 
+}
+

@@ -1,0 +1,131 @@
+https://www.youtube.com/watch?v=59fUtYYz7ZU&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&index=39
+Graphs:
+	- A network of connected nodes.
+	Vertex = nodes of the graphs
+	Edge = line connecting two Vertices .
+	Weight = distance (or time) from  one node to another
+	Graphs can be directed or undirected, can be unidirectional or bi-directional.
+
+Application of Graphs:
+1. Maps
+2. Social sites
+3. Delivery Network
+
+Ways of creating a Graphs:
+1. Adjacency List (array of ArrayLists)
+2. Adjacency Matrix
+3. Edge List
+4. 2D matrix (Implicit Graph)
+
+1. Adjacency List:
+	ArrayList<Edge> graph[V]; //where V=no. of Vertices 
+	static class Edge{
+		int src;
+		int dest;
+	}
+	
+Traversing the Graphs:
+1. Breadth First Search(BFS): 
+	- Since there is no start or root in Graphs.
+	- So, start from any node and go to immediate neighbors first.
+	- print the neighbors then go next neighbors.
+	- it is similar to indirect level order traversal.
+	- Implementation:
+		- Create a boolean array names visited of size V.
+		- Create a  queue to add neighbors.
+		- if Not Visited, print and add its neighbors to queue.
+		- remove that node from queue.
+	- Sudo Code:
+		create queue q, and array vis[V]
+		q.add(0);
+		while(!q.empty()){
+			int curr = q.remove();
+			if(!vis[curr]){
+				print(curr);
+				vis[curr] = true;
+				for(int i=0 to graph[curr].size){
+					Edge e = graph[curr].get(i);
+					q.add(e.dest) 
+				}
+			}
+		}
+	
+2. Depth First Search(DFS):
+	- Keep going to the 1st neighbor.
+	- use Recursion to go depth of each neighbor.
+	-
+	
+Topological Sorting:
+- works on Directed Acyclic Graphs(DAGs) only. 
+- DAG is a directed graph with no cycles.
+- Topological Sorting is a linear order of vertices such that
+	every directed edge u->v, the vertex 'u' comes before v in the order.
+- Algorithm using DFS:
+  - traverse all neighbors of a node and push all neighbors in stack.
+  - Now, pop elements from stack
+
+Cycle in Graphs:
+1. Directed Graph Approach:
+	1. DFS
+	2. BFS
+	3. Topological Sorting
+	
+2. Undirected Graph Approach:
+	1. DFS
+	2. BFS
+	3. DSU (Disjoint Set Union)
+	
+Shortest path Algorithms:
+- Path with minimum distance between 2 points.
+
+1. Dijkstra's Algorithm:
+	- Sortest distance from the source to all vertices.
+	- implementation using BFS with priority queue.
+	-
+
+2. Bellman Ford Algorithm:
+	- similar to Dijkstra's Algorithm but it also works if weight or distance is negative.
+	- takes more time than Dijkstra.
+	- does not work for negative weight cycle (i.e. sum of weights of all edges in a cycle is negative)
+	- 
+	
+Minimum Spanning Tree (MST):
+- It is a subset of the edges of a connected weighted undirected graph
+	that connects all the vertices together, without any cycle and with the
+	minimum possible total edge weight.
+- all vertices are connected 
+- no cycle
+- total weight is minimum for each vertices.
+Ways to implementation:		
+1. Prim's Algorithm:
+	- BFS with priority queue.
+	
+Strongly Connected Component (SSC):
+(https://www.youtube.com/watch?v=59fUtYYz7ZU&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&t=2h53m)
+- SSC is a componenet in which we can reach every vertex of the component from every other vertex in that componenet.
+Implementation:
+1. Kosaraju's Algorithm: (TC: O(V+E))
+	- using reverse DFS
+	Steps:
+	a. Get nodes in stack (Topological Sort)
+	b. Transpose the graph
+	c. Do DFS according to stack nodes on the transpose graph.
+	
+Bridge in Graphs:
+- Bridge is a edge whose deletion increases the number of connected components in the graph.
+- i.e it disconnects the graph.
+- Implementation:
+1. Tarjan's Algorithm:
+	- Discovery time (initial time from source to node)
+	- Lowest Discovery time
+	
+Articulation Point:
+- It is similar to Bridge in Graph.
+- It is a vertex in an undirected connected graph, 
+	if we remove this vertex, it disconnects the graph.  
+Tarjan's Algorithm: 
+	- Ancestor: a node A that was discovered beforee curr node in DFS, isthe ancestor of curr.
+	- A node is a Articulation Point if:
+		- it is starting node of DFS (i.e. parent = -1) with more than 1 disconnected children.
+		- It is the only node which connect 2 or more nodes.
+		- 

@@ -1,0 +1,15 @@
+package dsaProblems;
+
+import java.util.Stack;
+
+public class PushAtBottomOfStack {
+
+	public static void main(String[] args) {
+		Stack<Integer> st = new Stack<>();
+		
+		st.push(1);
+		st.push(2);
+
+	}
+
+}

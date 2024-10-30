@@ -1,0 +1,23 @@
+package Strings;
+
+public class SubSequencesString {
+	public static void findSubSequence(String str, int idx, String newStr) {
+		if(idx == str.length()) {
+			System.out.println(newStr);
+			return;
+		}
+		char c = str.charAt(idx);
+		
+		//to be
+		findSubSequence(str, idx+1, newStr+c);
+		
+		//not to be
+		findSubSequence(str, idx+1,newStr);
+	}
+	
+	public static void main(String[] args) {
+		String str = "abc";
+		findSubSequence(str, 0, "");
+	}
+
+}
