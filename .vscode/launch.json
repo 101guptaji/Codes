@@ -1,0 +1,1190 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "JavaAnnotation",
+            "request": "launch",
+            "mainClass": "JavaAnnotation",
+            "projectName": "AdvanceJava"
+        },
+        {
+            "type": "java",
+            "name": "LambdaExpressionExample",
+            "request": "launch",
+            "mainClass": "LambdaExpressionExample",
+            "projectName": "AdvanceJava"
+        },
+        {
+            "type": "java",
+            "name": "MD5_Encryption",
+            "request": "launch",
+            "mainClass": "MD5_Encryption",
+            "projectName": "AdvanceJava"
+        },
+        {
+            "type": "java",
+            "name": "PatternClassExample",
+            "request": "launch",
+            "mainClass": "PatternClassExample",
+            "projectName": "AdvanceJava"
+        },
+        {
+            "type": "java",
+            "name": "SHA256_Encryption",
+            "request": "launch",
+            "mainClass": "SHA256_Encryption",
+            "projectName": "AdvanceJava"
+        },
+        {
+            "type": "java",
+            "name": "ArrayDequeExample",
+            "request": "launch",
+            "mainClass": "ArrayDequeExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListOperations",
+            "request": "launch",
+            "mainClass": "ArrayListOperations",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "CollectionClassExample",
+            "request": "launch",
+            "mainClass": "CollectionClassExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "DequeExample",
+            "request": "launch",
+            "mainClass": "DequeExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "DictionaryExample",
+            "request": "launch",
+            "mainClass": "DictionaryExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "Greater_Smaller_Elements",
+            "request": "launch",
+            "mainClass": "Greater_Smaller_Elements",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "HashMapExample",
+            "request": "launch",
+            "mainClass": "HashMapExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "HashMapExample2",
+            "request": "launch",
+            "mainClass": "HashMapExample2",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "HashMapImplementation",
+            "request": "launch",
+            "mainClass": "HashMapImplementation",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "HashSetExample",
+            "request": "launch",
+            "mainClass": "HashSetExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "HashTableExample",
+            "request": "launch",
+            "mainClass": "HashTableExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "JavaIteratorExample",
+            "request": "launch",
+            "mainClass": "JavaIteratorExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "LinkedHashSetExample",
+            "request": "launch",
+            "mainClass": "LinkedHashSetExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "PriorityQuequeExample",
+            "request": "launch",
+            "mainClass": "PriorityQuequeExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "QueueOperations",
+            "request": "launch",
+            "mainClass": "QueueOperations",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "QueuePatternPrint",
+            "request": "launch",
+            "mainClass": "QueuePatternPrint",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "SetUnion",
+            "request": "launch",
+            "mainClass": "SetUnion",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "StackExample1",
+            "request": "launch",
+            "mainClass": "StackExample1",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "Test1",
+            "request": "launch",
+            "mainClass": "Test1",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "TestDictionary",
+            "request": "launch",
+            "mainClass": "TestDictionary",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "TreeMapExample",
+            "request": "launch",
+            "mainClass": "TreeMapExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "TreeSetExample",
+            "request": "launch",
+            "mainClass": "TreeSetExample",
+            "projectName": "JavaCollections"
+        },
+        {
+            "type": "java",
+            "name": "BalancedParentheses",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.BalancedParentheses",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "CheapestFlightsWithinKStops",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.CheapestFlightsWithinKStops",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "CloningLinkedListWithRandom",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.CloningLinkedListWithRandom",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "CoinChangeCountWays",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.CoinChangeCountWays",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "CountTotalPaths",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.CountTotalPaths",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "CountUniqueSubstring",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.CountUniqueSubstring",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "CourseSchedule",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.CourseSchedule",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "DeleteReverseCircularLinkedList",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.DeleteReverseCircularLinkedList",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "FindSafeStatesGraph",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.FindSafeStatesGraph",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "GenericMethod",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.GenericMethod",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "GuestsCall",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.GuestsCall",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "JavaComparator",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.JavaComparator",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "KSizedSubarrayMaximum",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.KSizedSubarrayMaximum",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "LongestPrefixSuffixProblem",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.LongestPrefixSuffixProblem",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "LongestValidParentheses",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.LongestValidParentheses",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "LongestWordWithAllPrefixes",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.LongestWordWithAllPrefixes",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "MatrixRectangle0X",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.MatrixRectangle0X",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "MaximumSumRectangle",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.MaximumSumRectangle",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "MergeTwoSortedLinkedLists",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.MergeTwoSortedLinkedLists",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "MinimizeTheHeight",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.MinimizeTheHeight",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "MinimumCostProblem",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.MinimumCostProblem",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "MinimumJumps",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.MinimumJumps",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "MostAndLeastTasty",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.MostAndLeastTasty",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "NQueensProblem",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.NQueensProblem",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "NoOfIslands",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.NoOfIslands",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "NodesSumAtKthLevel",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.NodesSumAtKthLevel",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "OddTriplets",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.OddTriplets",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "PlaceTilesInFloor",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.PlaceTilesInFloor",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStack",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.ReverseStack",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "RottenOrangesProblem",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.RottenOrangesProblem",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "SmallestWindowInSstring",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.SmallestWindowInSstring",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "SubArraysSumToK",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.SubArraysSumToK",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "SubArraysWithEqualOccurences",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.SubArraysWithEqualOccurences",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "SubsetOfNNaturalNum",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.SubsetOfNNaturalNum",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "SudokuSolver",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.SudokuSolver",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "Test1(1)",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.Test1",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "WordBreakProblemUsingTrie",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.WordBreakProblemUsingTrie",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "PatternNumber",
+            "request": "launch",
+            "mainClass": "javaBasics/StarPatterns.PatternNumber",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "PatternNumber2",
+            "request": "launch",
+            "mainClass": "javaBasics/StarPatterns.PatternNumber2",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "PatternStar1",
+            "request": "launch",
+            "mainClass": "javaBasics/StarPatterns.PatternStar1",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "PatternStar2",
+            "request": "launch",
+            "mainClass": "javaBasics/StarPatterns.PatternStar2",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "AlmostEquals",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.AlmostEquals",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "FirstLastOccurance",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.FirstLastOccurance",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "KeypadPhoneCombination",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.KeypadPhoneCombination",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "PatternMatcher",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.PatternMatcher",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.RemoveDuplicates",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "StringBufferExample",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.StringBufferExample",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "StringBuilderExample",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.StringBuilderExample",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "StringMethods",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.StringMethods",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "StringTokenizerExample",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.StringTokenizerExample",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "SubSequencesString",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.SubSequencesString",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "SubstringsPermutation",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.SubstringsPermutation",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "VowelConsonentCheck",
+            "request": "launch",
+            "mainClass": "javaBasics/Strings.VowelConsonentCheck",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPairsSum",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.ArrayPairsSum",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "ArraylistInsertDelete",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.ArraylistInsertDelete",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "ArraysSortComparator",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.ArraysSortComparator",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciNumbers",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.FibonacciNumbers",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciUsingDP_Memorisation",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.FibonacciUsingDP_Memorisation",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciUsingFormula",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.FibonacciUsingFormula",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciUsingRecursion",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.FibonacciUsingRecursion",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "FindSingleElement",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.FindSingleElement",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "JaggedArray",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.JaggedArray",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "Java1DArray_Problem",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.Java1DArray_Problem",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "SubArraySum",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.SubArraySum",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "SubsetArraySum",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.SubsetArraySum",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "SwapArrayElements",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.SwapArrayElements",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "TestArray",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.TestArray",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "TwoDimensionalArray",
+            "request": "launch",
+            "mainClass": "javaBasics/arrays.TwoDimensionalArray",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "AccessingAPrivateClass",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.AccessingAPrivateClass",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "BigDecimalProblem",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.BigDecimalProblem",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "BitSetExample",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.BitSetExample",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "BufferedReaderExample",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.BufferedReaderExample",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "CalculatePower",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.CalculatePower",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "CalendarClassExample",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.CalendarClassExample",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "ClassTypeObject",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.ClassTypeObject",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "CommandLineArguments",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.CommandLineArguments",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "CountPositiveNegative",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.CountPositiveNegative",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "CountSetBits",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.CountSetBits",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "CountSetBits2",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.CountSetBits2",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "CountSetBits3",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.CountSetBits3",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "CountSetBits4",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.CountSetBits4",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "CountTotalSetsBits",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.CountTotalSetsBits",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "DateClassExample",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.DateClassExample",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "EnumExample",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.EnumExample",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandlingExample1",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.ExceptionHandlingExample1",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandlingExample2",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.ExceptionHandlingExample2",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "FastReaderInput",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.FastReaderInput",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeries",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.FibonacciSeries",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "GCD_HCF",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.GCD_HCF",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "GetMethodsList",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.GetMethodsList",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "GregorianCalendarExample",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.GregorianCalendarExample",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "NumericPromotion",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.NumericPromotion",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "PassByReferenceChange",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.PassByReferenceChange",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "RearrangeArray",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.RearrangeArray",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "ScannerClassExample",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.ScannerClassExample",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "SwapBits",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.SwapBits",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "Test1(2)",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.Test1",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.Test2",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "ThisOperatorExample",
+            "request": "launch",
+            "mainClass": "javaBasics/javaBasics.ThisOperatorExample",
+            "projectName": "javaBasics"
+        },
+        {
+            "type": "java",
+            "name": "ArticulationPoint",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.ArticulationPoint",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "BFS1",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.BFS1",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "BST",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.BST",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "BellmanFordAlgorithm",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.BellmanFordAlgorithm",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTree",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.BinaryTree",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeDiameter",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.BinaryTreeDiameter",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeSubtree",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.BinaryTreeSubtree",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSortAlgo",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.BubbleSortAlgo",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "CircularLinkedList",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.CircularLinkedList",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "CircularQueueUsingArray",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.CircularQueueUsingArray",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "CycleDetectionDirected",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.CycleDetectionDirected",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "CycleDetectionUndirected",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.CycleDetectionUndirected",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "DFS1",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.DFS1",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "DeleteNodeLinkedList",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.DeleteNodeLinkedList",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "DijkstrasAlgorithm",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.DijkstrasAlgorithm",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "DoublyLinkedList",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.DoublyLinkedList",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "Graph1",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.Graph1",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "HeapSortAlgo",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.HeapSortAlgo",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "InsertLinkedList",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.InsertLinkedList",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSortAlgo",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.InsertionSortAlgo",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "KadanesAlgorithm",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.KadanesAlgorithm",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "KosarajuAlgorithm",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.KosarajuAlgorithm",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListCode",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.LinkedListCode",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "MergeSortAlog",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.MergeSortAlog",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "MusicPlayerProblem",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.MusicPlayerProblem",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "OptimumInsertAtEnd",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.OptimumInsertAtEnd",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "PalindromLinkedList",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.PalindromLinkedList",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "PrimsAlgorithm",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.PrimsAlgorithm",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "QueueUsing2Stacks",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.QueueUsing2Stacks",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "QueueUsingArray",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.QueueUsingArray",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "QuickSortAlgo",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.QuickSortAlgo",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "RemoveNthNodeFromEndLL",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.RemoveNthNodeFromEndLL",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.ReverseLinkedList",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "ReverseStringProblem",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.ReverseStringProblem",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSortAlgo",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.SelectionSortAlgo",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "StackUsingArray",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.StackUsingArray",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "StackUsingArrayList",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.StackUsingArrayList",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "StackUsingLinkedList",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.StackUsingLinkedList",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "TarjanAlgorithm",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.TarjanAlgorithm",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "TopologicalSort",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.TopologicalSort",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.TowerOfHanoi",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "TrieExample",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.TrieExample",
+            "projectName": "javaDSA"
+        }
+    ]
+}
