@@ -3,7 +3,7 @@
     - It is similar to Bridge in Graph.
     - It is a vertex in an undirected connected graph such that if we remove this vertex, it disconnects the graph.  
     Tarjan's Algorithm: 
-        - Ancestor: a node A that was discovered beforee curr node in DFS, isthe ancestor of curr.
+        - Ancestor: a node A that was discovered before curr node in DFS, is the ancestor of curr.
         - A node is a Articulation Point if:
             - it is starting node of DFS (i.e. parent = -1) with more than 1 disconnected children.
             - It is the only node which connect 2 or more nodes.
@@ -14,7 +14,7 @@
 
 package javaDSA;
 
-import java.util.*;;
+import java.util.*;
 
 public class ArticulationPoint {
     static class Edge {
@@ -33,17 +33,21 @@ public class ArticulationPoint {
 
         //undirected graph
         graph[0].add(new Edge(0, 1));
-        graph[0].add(new Edge(0, 2));
-        graph[0].add(new Edge(0, 3));
+        //graph[0].add(new Edge(0, 2));
+        //graph[0].add(new Edge(0, 3));
 
         graph[1].add(new Edge(1, 0));
         graph[1].add(new Edge(1, 2));
         
-        graph[2].add(new Edge(2, 0));
         graph[2].add(new Edge(2, 1));
+        // graph[2].add(new Edge(2, 3));
+        // graph[2].add(new Edge(2, 4));
         
-        graph[3].add(new Edge(3, 0));
-        graph[3].add(new Edge(3, 4));
+        // graph[3].add(new Edge(3, 2));
+        // graph[3].add(new Edge(3, 4));
+
+        // graph[4].add(new Edge(4, 2));
+        // graph[4].add(new Edge(4, 3));
     }
 
     //function for Tarjan's Algorithm using DFS
@@ -65,7 +69,7 @@ public class ArticulationPoint {
                 low[curr] = Math.min(low[curr], low[e.dst]);
 
                 //condition for articulation point: only node which connect 2 or more nodes.
-                if(dtime[curr] <= low[e.dst]){
+                if(dtime[curr] <= low[e.dst] && parent != -1){
                     isArticulation[curr] = true;
                 }
                 child++;
