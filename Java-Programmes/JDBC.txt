@@ -1,0 +1,16 @@
+JDBC (Java DataBase Connectivity):
+- An API(Application Programming Interface) used to connect to Databases.
+- need 4 Driver managers:
+	1. JDBC driver
+	2. Native driver
+	3. Thin driver
+	4. Network Protocol driver
+	
+- 5 steps to establish connection in Java:
+	1. load driver
+	2. establish connection
+	3. create statement interface
+	4. Create and excute query in statement.
+	5. close the connection.
+	
+- 

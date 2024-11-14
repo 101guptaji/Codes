@@ -1,0 +1,49 @@
+JSP (Java Server Pages):
+- It is a server side technology.
+- used to create dynamic web contents.
+- has access to entire API of Java.
+- are extended version of Servlet.
+- In this JSP tags are used to insert JAVA code into HTML pages.
+- JSP sends requests to the Servlet.
+
+Servlets:
+- It work on server-side.
+- A servlet is a Java class that is capable of handling complex requests obtained from websites
+	and able to process it and then able to provide the dynamic response accordingly.
+- Servlets are written in java so are platform-independent.	
+- Servlet is like controller in real life.
+- 2 ways of url mapping
+	1. using url-mapping tag in web.xaml
+	2. using annotation = @WebServlet("/servlet_name")
+- doGet() method: generally used to get the data from the server to the browser.
+	- data is visible on URL.
+	- not secure.
+	- used for small data (ximum of 2kb of data).
+- doPost() : generally used to submit the data from the browser to the server for processing.
+	- data is hidden.
+	- secure
+	- for large data
+- 4 ways of data transmitting:
+	1. URL - Parameters -> not secure
+	2. Request Attributes -> 
+	3. Session Attributes
+	4. Adding Cookies 
+
+Server:
+- A server is a hardware device or a software that processes requests sent over a network and replies to them.
+- A client is the device that submits a request and wait for a response from the server.
+
+Server Setup (for Apache tomcat server):
+- Install Eclipse EE edition
+- Go on Server tab and install Apache server.
+	- Apache 9 -> Java EE or Javax
+	- Apache 10, 11 -> Jakarta (Java library)
+- Create new Dynamic project and tick for web.xaml
+
+MVC Architecture:
+- stands for Model View Controller.
+- 	Model = database (mysql, MS Sql), 
+	View = Front-end part (HTML, CSS, JSP)
+	Controller = Back-end (Servlet)
+	
+- 

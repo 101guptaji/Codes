@@ -1,0 +1,9 @@
+Hibernate:
+- Hibernate is a framework that simplifies DB access.
+- Data is represented as Simple Java objects.
+- A session manager is used to access these objects.
+- Hibernate is an Object Relational Mapping tool (ORM).
+- increases programmer productivity when the application requires data to exist after a program ends, otherwise known as data persistence.
+- It makes persistent database access easier by using high-level object handling functions. 
+- Hibernate is a free open source software available through the GNU general public license.
+- 

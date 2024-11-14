@@ -1,0 +1,314 @@
+ Java Architecture and Basics of OOP
+
+Introduction to Java architecture: JDK, JRE, and JVM.
+
+Basics of Object-Oriented Programming (OOP): Objects, Classes, Inheritance.
+
+Understanding Polymorphism, Abstraction, and Encapsulation in OOP.
+
+Practical examples illustrating Object-Oriented Programming concepts.
+
+
+
+Session 2: Abstract Classes vs. Interfaces, Exception Handling, and Singleton Design Pattern
+
+Comparison between Abstract Classes and Interfaces with examples and use cases.
+
+Exception Hierarchy in Java: understanding types and relationships.
+
+Overview of Finally Block for cleanup operations.
+
+Throwing Exceptions explicitly using the throw keyword.
+
+Exception Propagation: how exceptions propagate up the call stack.
+
+Introduction to Singleton Design Pattern. 
+
+02Week 2:
+Session 3: Lambda Expressions, Functional Interfaces, and Collections
+
+Exploring Lambda Expressions and Functional Interfaces in Java 8.
+
+Practical usage of built-in functional interfaces: Predicate, Consumer, Function.
+
+Overview of Java Collections framework: Lists, Sets, Maps.
+
+Introduction to Queues in Java Collections.
+
+Using Lambdas for concise and functional programming.
+
+
+
+Session 4: Generics, Streams and HashMap 
+
+Understanding Generics in Java: generic classes and methods.
+
+Working with Streams API for functional-style operations on collections.
+
+Delving into the workings of HashMap and its usage.
+
+Exploring different hashing algorithms used by HashMap.
+
+Leveraging Streams for efficient data processing and manipulation.
+
+Differences between Sequential and Parallel Streams
+
+03Week 3:
+Session 5: Multithreading Basics and Advanced Concepts
+
+Introduction to Multithreading: Creating and managing threads in Java
+
+Exploring thread pool and join operations.
+
+Synchronization Mechanisms
+
+Exploring thread pools for efficient thread management.
+
+Executor Service: Overview and Benefits
+
+Session 6:  Maven Project Management 
+
+Understanding the Need for Maven
+
+Working with POM.xml and Maven Repositories
+
+Maven Lifecycle Management
+
+Introduction to Maven plugins
+
+Creating a new Maven project using archetypes
+
+04Week 4:
+Session 7: Introduction to Spring Framework
+
+Overview of the Spring Framework and its Need.
+
+Dependency Injection (DI) and Inversion of Control (IoC) principles.
+
+Types of Dependency Injection (constructor and setter)
+
+Configuring Beans using XML and annotations.
+
+Differentiates between ApplicationContext and BeanFactory in Spring.
+
+Bean Lifecycle and Scopes.
+
+Session 8: Spring Boot Basics
+
+Advantages of Spring Boot over Traditional Spring Framework and its Purpose
+
+Setting up a Spring Boot project using Spring Initializr.
+
+Understanding Spring Boot auto-configuration.
+
+Creating and running a Spring Boot application.
+
+Spring Boot Annotations.
+
+Packaging and deploying Spring Boot applications
+
+05Week 5:
+Session 9: Spring MVC Basics  & REST API Implementation
+
+Overview of Spring MVC architecture and its role in web development.
+
+Understanding the Model, View, and Controller components.
+
+Setting up a Spring MVC project
+
+Handling requests and responses using Spring MVC.
+
+Principles and benefits of RESTful architecture.
+
+Overview of HTTP methods: GET, POST, DELETE, PUT, PATCH.
+
+Designing and implementing RESTful APIs.
+
+Session 10:  Spring AOP, Lombok API , and Spring Logger
+
+Introduction to Aspect-Oriented Programming (AOP).
+
+Implementing cross-cutting concerns using Spring AOP.
+
+Using Lombok for Simplified Java Code
+
+Integrating Lombok in a Spring Boot Project
+
+Overview of logging in Spring Boot applications.
+
+06Week 6:
+Session 11: Java Database Connectivity (JDBC)
+
+Overview of JDBC and its role in database connectivity.
+
+Learn DDL and DML commands.
+
+Setting up Database Configuration
+
+Introduction to Spring JDBC Template for database operations.
+
+Implementing some operations using the JDBC Template.
+
+Mapping database rows to Java objects using RowMapper.
+
+Understand how connection pooling works. 
+
+Session 12: Hibernate and Spring Data JPA 
+
+Understanding the Need for Abstraction
+
+Introduction to JPA (Java Persistence API)
+
+Introduction to Hibernate
+
+Entity Classes and Annotations
+
+JPA Repository and Performing CRUD Operations
+
+Implementing transactional behavior in Spring Boot applications.
+
+Learn about relationships in JPA (One-to-One, One-to-Many, Many-to-One, Many-to-Many) 
+
+07Week 7:
+Session 13: Minor Project - Digital Library
+
+Work on a Digital Library [Minor Project]
+
+Setting Up the Project Environment
+
+Design the technical architecture of an application
+
+Design a project flowchart to visualize the overall architecture and workflow.
+
+Session 14: Digital Library [Minor Project] (Continued) 
+
+Continue working on the Digital Library [Minor Project] 
+
+Add Features to the Project
+
+Understand project HLSD 
+
+Data Modeling concepts 
+
+08Week 8:
+Session 15: Unit Testing with JUnit & Mockito 
+
+Describe JUnit5 testing
+
+Implement repository layer testing
+
+Explore the Mockito framework
+
+Implement service layer testing
+
+Explore Mockmvc 
+
+Implement controller layer testing
+
+Session 16: Redis & Caching
+
+Learn the differences between Cache and Cookie.
+
+Understand Server Cache vs. Browser Cache.
+
+Get introduced to Redis.
+
+Work with Local Redis Server.
+
+Online Centralized Redis Server for efficient caching.
+
+09Week 9:
+Session 17: Spring Security & Authentication
+
+Learn about Spring Security and its terminologies.
+
+Setting Up Spring Security
+
+Authentication and Authorization
+
+Understand Authorization with In-Memory.
+
+Database user Authentication.
+
+Session 18: Digital Library [Minor Project] (Continued)
+
+Integration of J-unit and Redis caching in a Minor project.
+
+Add Spring Security in a Minor project.
+
+Improvement and feature addition for Digital Library [Minor Project].
+
+Gain insights into project overview, project HLSD, and project Data Modeling.
+
+10Week 10:
+Session 19: OAuth 2 & Github Integration
+
+Introduction to OAuth2.
+
+OAuth 2 Providers
+
+Learn the workflow of OAuth 2.0.
+
+Explore Scopes and Consent.
+
+Implement Github OAuth2 integration with Spring Boot.
+
+Implementation Steps.
+
+Session 20: Microservices
+
+Difference between Monolith Architecture and Microservices Architecture.
+
+Develop microservices using Spring Boot.
+
+Intercommunication between Microservices using Feign client.
+
+Load Balancing Algorithms and Introduction to Eureka Server
+
+Learn about the Consumers and Producers Model.
+
+11 Week 11:
+Session 21: Kafka Integration with Microservices and Spring Cloud
+
+Learn about Message Queues and their types.
+
+Integrate Kafka with Spring Boot.
+
+Introduced to Kafka Message Queue for efficient messaging systems.
+
+Introduction to Spring Cloud and its configuration & Hystrix circuit breaker.
+
+Session 22: E-Wallet App like Paytm Pay [Major Project Part 1]
+
+Start working on an E-Wallet App like Paytm Pay.
+
+Project Overview.
+
+Project HLSD.
+
+Project Data Modeling.
+
+Building Microservice Architecture.
+
+12 Week 12:
+Session 23: E-Wallet App like Paytm Pay [Major Project Part 2]
+
+Major Project Continued.
+
+Design the technical architecture of an application
+
+Set up Spring Cloud Gateway to route requests to the appropriate microservices.
+
+Project Queries.
+
+Session 24: Deployment Java Application
+
+Introduction to the deployment process and its workflow.
+
+CI/CD: Setting up CI/CD pipelines using Jenkins or GitHub Actions.
+
+Building and packaging Java applications.
+
+Deploying our projects to the cloud.
+
+Monitoring and logging using tools like Prometheus, Grafana, and the ELK stack (Elasticsearch, Logstash, Kibana).
