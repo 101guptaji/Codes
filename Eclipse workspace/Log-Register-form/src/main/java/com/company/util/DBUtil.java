@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DBUtil {
 	private static final String URL = "jdbc:mysql://localhost:3306/College";
 	 private static final String USERNAME = "root";
-	 private static final String PASSWORD = "8561903090";
+	 private static final String PASSWORD = "2000";
 	 
    static {
        try {

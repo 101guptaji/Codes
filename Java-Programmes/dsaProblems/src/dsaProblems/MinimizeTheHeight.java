@@ -62,20 +62,20 @@ public class MinimizeTheHeight {
       // Initialize the result as the difference between the max and min height in the sorted array.
       int result = arr[n-1]-arr[0];
       
-      int minHite = 0;
-      int maxHite = 0;
+      int minHeight = 0;
+      int maxHeight = 0;
       
       // Traverse through the array to explore the different possibilities
       for(int i=0;i<n-1;i++){
-          minHite = Math.min(arr[0]+k, arr[i+1]-k);
-          maxHite = Math.max(arr[n-1]-k, arr[i]+k);
+          minHeight = Math.min(arr[0]+k, arr[i+1]-k);
+          maxHeight = Math.max(arr[n-1]-k, arr[i]+k);
           
           // If the new height is negative, skip to avoid invalid cases    
-          if(minHite<0)
+          if(minHeight<0)
               continue;
               
           // Update the result with the minimum possible difference
-          result = Math.min(result, maxHite-minHite);
+          result = Math.min(result, maxHeight-minHeight);
       }
       
       return result;

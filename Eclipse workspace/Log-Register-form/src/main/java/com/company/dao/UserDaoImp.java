@@ -23,7 +23,8 @@ public class UserDaoImp implements UserDao{
             int rowsAffected = preparedStatement.executeUpdate();
 
             return rowsAffected > 0;
-        } catch (SQLException e) {
+        } 
+        catch (SQLException e) {
             e.printStackTrace();
             return false;
         }
@@ -41,7 +42,8 @@ public class UserDaoImp implements UserDao{
             ResultSet resultSet = preparedStatement.executeQuery();
 
             return resultSet.next();
-        } catch (SQLException e) {
+        } 
+    	 catch (SQLException e) {
             e.printStackTrace();
             return false;
         }

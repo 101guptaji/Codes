@@ -1,0 +1,53 @@
+Spring Boot:
+- Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
+- Features
+	Create stand-alone Spring applications
+	Embed Tomcat, Jetty or Undertow directly (no need to deploy WAR files)
+	Provide opinionated 'starter' dependencies to simplify your build configuration
+	Automatically configure Spring and 3rd party libraries whenever possible
+	Provide production-ready features such as metrics, health checks, and externalized configuration
+	Absolutely no code generation and no requirement for XML configuration
+	
+- IOC container -> to manage and create objects.
+- Annotation
+- Dependency Injection -> spring web, dbms
+- Build tools -> Maven, or Gradle
+- Java Beans -> represents objects
+- REST Full API -> Get, Post, Put, Delete (CRUD operation)
+
+- 3 layers architecture
+	1. Presentation layer - Controller (REST API)
+	2. Business layer - Service
+	3. DAO(Database Access Object) layer - Hibernate(JPA) or Repository
+		JPA = Java Persistence Api
+	
+@SpringBootApplication
+- Annotation to define a class as SpringBootApplication
+- consists of 3 annotations
+	1. @EnableAutoConfig
+	2. @ComponentScan
+	3. @Configuration
+- Inherits all features of SpringAppliction.
+
+Flow:
+user ->send requests in form of Model to -> Controller 
+Controller -> Services -> Repository -> Database
+Repository send response in form of Entity to -> Service -> Controller
+
+Spring Boot - Starters (dependecies)
+- Spring Boot starters are curated dependencies that streamline the setup of common configurations and components, saving you tons of time and effort. 
+- By mastering these starters, you'll be well-equipped to handle any project that comes your way.
+- can see in pom.xml
+Example:
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency>
+- Some important starters:
+	1. Spring Boot Starter Web - Simplify web development with embedded servers like Tomcat, Jetty, or Undertow.
+	2. Spring Boot Starter Data JPA - Easy data access using Spring Data JPA and Hibernate.
+	3. Spring Boot Starter Security - Implement security features seamlessly in your applications.
+	4. Spring Boot Starter Test - Comprehensive testing support to ensure your code is solid. Loaded by default.
+	5. Spring Boot Starter Actuator - Monitor and manage your Spring Boot application in production.
+	6. Spring Boot Starter Thymeleaf - Create dynamic web pages with ease using the Thymeleaf template engine.
+	7. Spring Boot Starter AMQP - It provides a "template" as a high-level abstraction for sending and receiving messages.

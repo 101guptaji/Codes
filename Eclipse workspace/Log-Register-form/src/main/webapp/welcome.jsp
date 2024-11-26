@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="jakarta.servlet.http.HttpSession"%>
+    pageEncoding="UTF-8" %> 
+<%@ page import="jakarta.servlet.http.HttpSession"%>
     
 <!DOCTYPE html>
 <html>
@@ -24,7 +25,7 @@
         <p>We're delighted to have you on our platform. 🌟</p>
         <h3>Explore, learn, and connect with our vibrant community! 🚀</h3>
         <p>Feel free to stay as long as you like, and when you're ready,</p> 
-        you can <a href="index.html">LOGOUT</a> securely.
+        you can <a href="logout.jsp">LOGOUT</a> securely.
     </div>
 	
 	<%
