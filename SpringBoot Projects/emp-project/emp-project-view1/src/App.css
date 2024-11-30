@@ -1,0 +1,8 @@
+body{
+  background-image: url('./images//bg1.png');
+  background-size: auto;
+  background-position-x: left;
+  background-position-y: center;
+  height: 100vh;
+  color: #ffffff;
+}
