@@ -1,0 +1,15 @@
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\bin\Debug\net8.0\StudentGradingApp.exe
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\bin\Debug\net8.0\StudentGradingApp.deps.json
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\bin\Debug\net8.0\StudentGradingApp.runtimeconfig.json
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\bin\Debug\net8.0\StudentGradingApp.dll
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\bin\Debug\net8.0\StudentGradingApp.pdb
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\obj\Debug\net8.0\StudentGradingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\obj\Debug\net8.0\StudentGradingApp.AssemblyInfoInputs.cache
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\obj\Debug\net8.0\StudentGradingApp.AssemblyInfo.cs
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\obj\Debug\net8.0\StudentGradingApp.csproj.CoreCompileInputs.cache
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\obj\Debug\net8.0\StudentGradingApp.sourcelink.json
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\obj\Debug\net8.0\StudentGradingApp.dll
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\obj\Debug\net8.0\refint\StudentGradingApp.dll
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\obj\Debug\net8.0\StudentGradingApp.pdb
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\obj\Debug\net8.0\StudentGradingApp.genruntimeconfig.cache
+C:\Users\101gu\OneDrive\Documents\Codes\CSharp Programs\StudentGradingApp\obj\Debug\net8.0\ref\StudentGradingApp.dll

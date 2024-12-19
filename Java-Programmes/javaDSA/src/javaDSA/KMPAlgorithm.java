@@ -1,6 +1,9 @@
 /*
  * KMP Pattern Searching Algorithm:
-    The Knuth-Morris-Pratt (KMP) algorithm is a string-searching algorithm which is used to find a pattern within large texts efficiently. Unlike naive pattern searching algorithm which starts from the beginning of the pattern after each mismatch, KMP uses the structure of the pattern to avoid redundant comparisons. It preprocesses the pattern string and creates an array called the Longest Prefix Suffix (lps) array which indicates how much of the pattern can be reused after a mismatch.
+    The Knuth-Morris-Pratt (KMP) algorithm is a string-searching algorithm which is used to find a pattern within large texts efficiently. 
+    Unlike naive pattern searching algorithm which starts from the beginning of the pattern after each mismatch, 
+    KMP uses the structure of the pattern to avoid redundant comparisons. 
+    It preprocesses the pattern string and creates an array called the Longest Prefix Suffix (lps) array which indicates how much of the pattern can be reused after a mismatch.
 
     LPS Array
     LPS is the Longest Proper Prefix which is also a Suffix. A proper prefix is a prefix that doesn’t include whole string. For example, prefixes of “abc” are “”, “a”, “ab” and “abc” but proper prefixes are “”, “a” and “ab” only. Suffixes of the string are “”, “c”, “bc”, and “abc”.
@@ -9,8 +12,10 @@
     Implementation of KMP Algorithm
     We initialize two pointers, one for the text string and another for the pattern. 
     When the characters at both pointers match, we increment both pointers and continue the comparison. 
-    If they do not match, we reset the pattern pointer to the last value from the LPS array, because that portion of the pattern has already been matched with the text string. 
-    Similarly, if we have traversed the entire pattern string, we add the starting index of occurrence of pattern in text, to the result and continue the search from the lps value of last element of the pattern.
+    If they do not match, we reset the pattern pointer to the last value from the LPS array, 
+    because that portion of the pattern has already been matched with the text string. 
+    Similarly, if we have traversed the entire pattern string, we add the starting index of occurrence of pattern in text, 
+    to the result and continue the search from the lps value of last element of the pattern.
  */
 package javaDSA;
 

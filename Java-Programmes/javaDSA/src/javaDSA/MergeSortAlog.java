@@ -52,7 +52,7 @@ public class MergeSortAlog {
 			k++;
 		}
 		
-		//// Copy element of merged array to original array
+		// Copy element of merged array to original array
 		for(i=0,j=l;i<merged.length;i++, j++) {
 			arr[j] = merged[i];
 		}

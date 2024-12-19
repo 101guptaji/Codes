@@ -1,0 +1,44 @@
+React Tutorial:
+- React is a open-source frind-end JavaScript library for building user interfaces.
+- React is used to build single-page applications.
+- React allows us to create reusable UI components.
+
+Create React Application commands:
+	1. npx create-react-app my-app
+	2. cd my-app
+	3. npm start
+	
+Install Tailwind CSS:
+	npm install -D tailwindcss
+	npx tailwindcss init
+
+Configure your template paths
+- Add the paths to all of your template files in your tailwind.config.js file.
+	/** @type {import('tailwindcss').Config} */
+	module.exports = {
+	  content: [
+		"./src/**/*.{js,jsx,ts,tsx}",
+	  ],
+	  theme: {
+		extend: {},
+	  },
+	  plugins: [],
+	}
+	
+Add the Tailwind directives to your CSS
+- Add the @tailwind directives for each of Tailwind’s layers to your ./src/index.css file.
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+
+Start your build process:
+	npm run start
+
+Start using Tailwind in your project:
+	export default function App() {
+	  return (
+		<h1 className="text-3xl font-bold underline">
+		  Hello world!
+		</h1>
+	  )
+	}

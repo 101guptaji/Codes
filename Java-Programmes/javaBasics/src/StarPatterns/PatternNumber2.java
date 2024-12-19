@@ -22,10 +22,16 @@ public class PatternNumber2 {
 			for(int j=1;j<n-i;j++) {
 				System.out.print(" ");
 			}
-			for(int j=0;j<=i;j++) {
+			/*for(int j=0;j<=i;j++) {
 				//using nCr formula: n ! / ( n – r ) ! r ! 
 				System.out.print(" "+factorial(i)/(factorial(i-j)*factorial(j)));
-			}
+			}*/
+
+			int value = 1; // Starting value for each row
+            for (int j = 0; j <= i; j++) {
+                System.out.print(value + " ");
+                value = value * (i - j) / (j + 1); // Update value based on Pascal's formula
+            }
 			System.out.println();
 		}
 		

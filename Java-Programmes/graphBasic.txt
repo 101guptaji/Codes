@@ -1,3 +1,6 @@
+SOLID Principal
+Dependency Injection
+
 https://www.youtube.com/watch?v=59fUtYYz7ZU&list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&index=39
 Graphs:
 	- A network of connected nodes.
