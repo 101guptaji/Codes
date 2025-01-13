@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\bin\Debug\net8.0\Final.exe
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\bin\Debug\net8.0\Final.deps.json
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\bin\Debug\net8.0\Final.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\bin\Debug\net8.0\Final.dll
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\bin\Debug\net8.0\Final.pdb
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\obj\Debug\net8.0\Final.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\obj\Debug\net8.0\Final.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\obj\Debug\net8.0\Final.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\obj\Debug\net8.0\Final.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\obj\Debug\net8.0\Final.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\obj\Debug\net8.0\Final.dll
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\obj\Debug\net8.0\refint\Final.dll
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\obj\Debug\net8.0\Final.pdb
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\obj\Debug\net8.0\Final.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\Guided-project-foreach-if-array-CSharp-main\GuidedProject\Final\obj\Debug\net8.0\ref\Final.dll

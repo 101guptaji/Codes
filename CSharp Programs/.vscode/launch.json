@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "C#: testproject",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\dotnetprojects\\testproject\\testproject.csproj",
+            "launchConfigurationId": "TargetFramework=;testproject"
+        },
+
+        {
+            "name": "C#: retailSupport",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\RetailSupportApplication\\RetailSupportApplication.csproj",
+            "launchConfigurationId": "TargetFramework=;RetailSupportApplication",
+            "console":"integratedTerminal"
+        }
+    ]
+}

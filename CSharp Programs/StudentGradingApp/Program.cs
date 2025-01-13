@@ -27,57 +27,90 @@
 */
 
 // initialize variables - graded assignments 
-int currentAssignments = 5;
+int assignments = 5;
 
-int[] sophia = { 93, 87, 98, 95, 100 };
-int sophiaSum = 0;
-for (int i = 0; i < sophia.Length; i++)
-{
-    sophiaSum += sophia[i];
-}
-decimal sophiaScore = (decimal)sophiaSum/sophia.Length;
-//Console.WriteLine($"Sophia\t{sophiaSum}\t{sophiaScore}");
+string[] students  = { "Sophia", "Nicola", "Zahira", "Jeong" };
 
-int[] nicolas = {80,83,82,88,85};
-int nicolasSum = 0;
-for (int i = 0; i < nicolas.Length; i++)
-{
-    nicolasSum += nicolas[i];
-}
-decimal nicolasScore = (decimal) nicolasSum / nicolas.Length;
-//Console.WriteLine($"Nicolas\t{nicolasSum}\t{nicolasScore}");
-
-int[] zahira = {84,96,73,85,79};
-int zahiraSum = 0;
-for (int i = 0; i < zahira.Length; i++)
-{
-    zahiraSum += zahira[i];
-}
-decimal zahirahScore = (decimal) zahiraSum / zahira.Length;
-//Console.WriteLine($"Zahira\t{zahiraSum}\t{zahirahScore}");
-
-int[] jeong = {90,92,98,100,97};
-int jeongSum = 0;
-for (int i = 0; i < jeong.Length; i++)
-{
-    jeongSum += jeong[i];
-}
-decimal jeongScore = (decimal) jeongSum / jeong.Length;
-//Console.WriteLine($"jeong\t{jeongSum}\t{jeongScore}");
-
-/*
-    97 - 100    A+
-    93 - 96     A
-    90 - 92     A-
-    87 - 89     B+
-    83 - 86     B
-*/
+int[] sophiaMarks = { 93, 87, 98, 95, 100 };
+int[] nicolasMarks = { 90, 93, 92, 88, 85};
+int[] zahiraMarks = {84,96,73,85,79};
+int[] jeongMarks = {90,92,98,100,97};
 
 Console.WriteLine("Student\t\tAverage Marks\tGrade");
-Console.WriteLine("Sophia:\t\t" + sophiaScore + "\t\tA");
-Console.WriteLine("Nicolas:\t" + nicolasScore + "\t\tB");
-Console.WriteLine("Zahirah:\t" + zahirahScore + "\t\tB");
-Console.WriteLine("Jeong:\t\t" + jeongScore + "\t\tA");
+int[] scores = new int[assignments];
+foreach(string name in students){
+    if(name == "Sophia"){
+        scores = sophiaMarks;
+    }
+    else if(name == "Nicola"){
+        scores = nicolasMarks;
+    }
+    else if(name == "Zahira"){
+        scores = zahiraMarks;
+    }
+    else if(name == "Jeong"){
+        scores = jeongMarks;
+    }
+
+    int scoreSum = 0;
+    for (int i = 0; i < scores.Length; i++)
+    {
+        scoreSum += scores[i];
+    }
+
+    decimal avgScore = (decimal)scoreSum/scores.Length;
+    /*
+        97 - 100    A+
+        93 - 96     A
+        90 - 92     A-
+        87 - 89     B+
+        83 - 86     B
+        80 - 82    B-
+        77 - 79    C+
+        73 - 76    C
+        70 - 72    C-
+        67 - 69    D+
+        63 - 66    D
+        60 - 62    D-
+        0  - 59    F
+    */
+    
+    string grade = "";
+    if(avgScore >= 97){
+        grade = "A+";
+    }
+    else if(avgScore >= 93){
+        grade = "A";
+    }
+    else if(avgScore >= 90){
+        grade = "A-";
+    }
+    else if(avgScore >= 87){
+       grade = "B+";
+    }
+    else if(avgScore >= 83){
+        grade = "B";
+    }
+    else if (avgScore >= 80)
+        grade = "B-";
+    else if (avgScore >= 77)
+        grade = "C+";
+    else if (avgScore >= 73)
+        grade = "C";
+    else if (avgScore >= 70)
+        grade = "C-";
+    else if (avgScore >= 67)
+        grade = "D+";
+    else if (avgScore >= 63)
+        grade = "D";
+    else if (avgScore >= 60)
+        grade = "D-";
+    else
+        grade = "F";
+
+    Console.WriteLine($"{name}:\t\t{avgScore}\t\t{grade}");
+}
+
 
 /*
  Project overview
@@ -152,3 +185,4 @@ int firstDigit = (int)(gradePointAverage * 10) % 10;
 int secondDigit = (int)(gradePointAverage * 100) % 10;
 
 Console.WriteLine($"\nFinal GPA:\t\t{leadingDigit}.{firstDigit}{secondDigit}");
+

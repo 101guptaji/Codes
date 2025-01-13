@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\obj\Debug\net9.0\heroMonsterBettle.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\obj\Debug\net9.0\heroMonsterBettle.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\obj\Debug\net9.0\heroMonsterBettle.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\obj\Debug\net9.0\heroMonsterBettle.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\obj\Debug\net9.0\heroMonsterBettle.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\bin\Debug\net9.0\heroMonsterBettle.exe
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\bin\Debug\net9.0\heroMonsterBettle.deps.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\bin\Debug\net9.0\heroMonsterBettle.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\bin\Debug\net9.0\heroMonsterBettle.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\bin\Debug\net9.0\heroMonsterBettle.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\obj\Debug\net9.0\heroMonsterBettle.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\obj\Debug\net9.0\refint\heroMonsterBettle.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\obj\Debug\net9.0\heroMonsterBettle.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\obj\Debug\net9.0\heroMonsterBettle.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\heroMonsterBettle\obj\Debug\net9.0\ref\heroMonsterBettle.dll

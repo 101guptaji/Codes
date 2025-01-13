@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\101gu\\OneDrive\\Documents\\Codes\\CSharp Programs\\StudentGradingApp\\StudentGradingApp.csproj": {}
+    "D:\\HG Documents\\Codes\\CSharp Programs\\StudentGradingApp\\StudentGradingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\101gu\\OneDrive\\Documents\\Codes\\CSharp Programs\\StudentGradingApp\\StudentGradingApp.csproj": {
+    "D:\\HG Documents\\Codes\\CSharp Programs\\StudentGradingApp\\StudentGradingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\101gu\\OneDrive\\Documents\\Codes\\CSharp Programs\\StudentGradingApp\\StudentGradingApp.csproj",
+        "projectUniqueName": "D:\\HG Documents\\Codes\\CSharp Programs\\StudentGradingApp\\StudentGradingApp.csproj",
         "projectName": "StudentGradingApp",
-        "projectPath": "C:\\Users\\101gu\\OneDrive\\Documents\\Codes\\CSharp Programs\\StudentGradingApp\\StudentGradingApp.csproj",
+        "projectPath": "D:\\HG Documents\\Codes\\CSharp Programs\\StudentGradingApp\\StudentGradingApp.csproj",
         "packagesPath": "C:\\Users\\101gu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\101gu\\OneDrive\\Documents\\Codes\\CSharp Programs\\StudentGradingApp\\obj\\",
+        "outputPath": "D:\\HG Documents\\Codes\\CSharp Programs\\StudentGradingApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

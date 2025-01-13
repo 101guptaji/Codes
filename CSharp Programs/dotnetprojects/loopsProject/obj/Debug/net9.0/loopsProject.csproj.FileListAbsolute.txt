@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\obj\Debug\net9.0\loopsProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\obj\Debug\net9.0\loopsProject.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\obj\Debug\net9.0\loopsProject.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\obj\Debug\net9.0\loopsProject.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\obj\Debug\net9.0\loopsProject.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\bin\Debug\net9.0\loopsProject.exe
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\bin\Debug\net9.0\loopsProject.deps.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\bin\Debug\net9.0\loopsProject.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\bin\Debug\net9.0\loopsProject.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\bin\Debug\net9.0\loopsProject.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\obj\Debug\net9.0\loopsProject.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\obj\Debug\net9.0\refint\loopsProject.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\obj\Debug\net9.0\loopsProject.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\obj\Debug\net9.0\loopsProject.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\loopsProject\obj\Debug\net9.0\ref\loopsProject.dll

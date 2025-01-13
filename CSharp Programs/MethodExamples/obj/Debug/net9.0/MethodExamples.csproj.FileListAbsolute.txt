@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\bin\Debug\net9.0\MethodExamples.exe
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\bin\Debug\net9.0\MethodExamples.deps.json
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\bin\Debug\net9.0\MethodExamples.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\bin\Debug\net9.0\MethodExamples.dll
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\bin\Debug\net9.0\MethodExamples.pdb
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\obj\Debug\net9.0\MethodExamples.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\obj\Debug\net9.0\MethodExamples.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\obj\Debug\net9.0\MethodExamples.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\obj\Debug\net9.0\MethodExamples.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\obj\Debug\net9.0\MethodExamples.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\obj\Debug\net9.0\MethodExamples.dll
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\obj\Debug\net9.0\refint\MethodExamples.dll
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\obj\Debug\net9.0\MethodExamples.pdb
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\obj\Debug\net9.0\MethodExamples.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\MethodExamples\obj\Debug\net9.0\ref\MethodExamples.dll

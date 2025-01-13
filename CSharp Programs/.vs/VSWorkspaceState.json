@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DiceMiniGame",
+    "\\dotnetprojects",
+    "\\dotnetprojects\\ContosoPetsApplication",
+    "\\dotnetprojects\\testProject2",
+    "\\PlayerVsFood"
   ],
-  "SelectedNode": "\\HelloWorld.cs",
+  "SelectedNode": "\\PlayerVsFood\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

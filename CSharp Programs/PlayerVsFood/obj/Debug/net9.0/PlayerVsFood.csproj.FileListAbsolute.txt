@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\bin\Debug\net9.0\PlayerVsFood.exe
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\bin\Debug\net9.0\PlayerVsFood.deps.json
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\bin\Debug\net9.0\PlayerVsFood.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\bin\Debug\net9.0\PlayerVsFood.dll
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\bin\Debug\net9.0\PlayerVsFood.pdb
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\obj\Debug\net9.0\PlayerVsFood.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\obj\Debug\net9.0\PlayerVsFood.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\obj\Debug\net9.0\PlayerVsFood.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\obj\Debug\net9.0\PlayerVsFood.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\obj\Debug\net9.0\PlayerVsFood.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\obj\Debug\net9.0\PlayerVsFood.dll
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\obj\Debug\net9.0\refint\PlayerVsFood.dll
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\obj\Debug\net9.0\PlayerVsFood.pdb
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\obj\Debug\net9.0\PlayerVsFood.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\PlayerVsFood\obj\Debug\net9.0\ref\PlayerVsFood.dll

@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\bin\Debug\net9.0\subscriptionsRate.exe
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\bin\Debug\net9.0\subscriptionsRate.deps.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\bin\Debug\net9.0\subscriptionsRate.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\bin\Debug\net9.0\subscriptionsRate.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\bin\Debug\net9.0\subscriptionsRate.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\obj\Debug\net9.0\subscriptionsRate.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\obj\Debug\net9.0\subscriptionsRate.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\obj\Debug\net9.0\subscriptionsRate.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\obj\Debug\net9.0\subscriptionsRate.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\obj\Debug\net9.0\subscriptionsRate.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\obj\Debug\net9.0\subscriptionsRate.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\obj\Debug\net9.0\refint\subscriptionsRate.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\obj\Debug\net9.0\subscriptionsRate.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\obj\Debug\net9.0\subscriptionsRate.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\subscriptionsRate\obj\Debug\net9.0\ref\subscriptionsRate.dll

@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\bin\Debug\net9.0\flipCoin.exe
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\bin\Debug\net9.0\flipCoin.deps.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\bin\Debug\net9.0\flipCoin.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\bin\Debug\net9.0\flipCoin.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\bin\Debug\net9.0\flipCoin.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\obj\Debug\net9.0\flipCoin.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\obj\Debug\net9.0\flipCoin.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\obj\Debug\net9.0\flipCoin.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\obj\Debug\net9.0\flipCoin.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\obj\Debug\net9.0\flipCoin.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\obj\Debug\net9.0\flipCoin.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\obj\Debug\net9.0\refint\flipCoin.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\obj\Debug\net9.0\flipCoin.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\obj\Debug\net9.0\flipCoin.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\flipCoin\obj\Debug\net9.0\ref\flipCoin.dll

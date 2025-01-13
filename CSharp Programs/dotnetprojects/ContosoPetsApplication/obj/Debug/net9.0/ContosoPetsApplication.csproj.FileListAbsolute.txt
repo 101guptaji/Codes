@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\obj\Debug\net9.0\ContosoPetsApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\obj\Debug\net9.0\ContosoPetsApplication.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\obj\Debug\net9.0\ContosoPetsApplication.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\obj\Debug\net9.0\ContosoPetsApplication.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\obj\Debug\net9.0\ContosoPetsApplication.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\bin\Debug\net9.0\ContosoPetsApplication.exe
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\bin\Debug\net9.0\ContosoPetsApplication.deps.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\bin\Debug\net9.0\ContosoPetsApplication.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\bin\Debug\net9.0\ContosoPetsApplication.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\bin\Debug\net9.0\ContosoPetsApplication.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\obj\Debug\net9.0\ContosoPetsApplication.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\obj\Debug\net9.0\refint\ContosoPetsApplication.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\obj\Debug\net9.0\ContosoPetsApplication.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\obj\Debug\net9.0\ContosoPetsApplication.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\ContosoPetsApplication\obj\Debug\net9.0\ref\ContosoPetsApplication.dll

@@ -10,8 +10,7 @@ namespace FirstConsoleApp
             //char for a single alphanumeric character
             char c = 'a';
             Console.WriteLine(c);
-            Console.WriteLine(char.MinValue);
-            Console.WriteLine(char.MaxValue);
+            Console.WriteLine($"char  : {char.MinValue} to {char.MaxValue}");
 
             //string for words, phrases, or any alphanumeric data for presentation, not calculation
             string str = "Hello!1";
@@ -23,15 +22,29 @@ namespace FirstConsoleApp
 
             int age = 26;
             Console.WriteLine(age);
-            Console.WriteLine(int.MinValue);
-            Console.WriteLine(int.MaxValue);
 
             long mobile = 859674894578;
             Console.WriteLine(mobile);
-            Console.WriteLine(long.MinValue);
-            Console.WriteLine(long.MaxValue);
 
-            //decimal for a number with a fractional component
+            Console.WriteLine("Signed integral types:");
+
+            Console.WriteLine($"sbyte  : {sbyte.MinValue} to {sbyte.MaxValue}"); //-128 to 127
+            Console.WriteLine($"short  : {short.MinValue} to {short.MaxValue}"); //-32768 to 32767
+            Console.WriteLine($"int    : {int.MinValue} to {int.MaxValue}"); // -2147483648 to 2147483647
+            Console.WriteLine($"long   : {long.MinValue} to {long.MaxValue}"); //-9223372036854775808 to 9223372036854775807
+
+            Console.WriteLine("");
+            Console.WriteLine("Unsigned integral types:");
+
+            Console.WriteLine($"byte   : {byte.MinValue} to {byte.MaxValue}"); // 0 to 255
+            Console.WriteLine($"ushort : {ushort.MinValue} to {ushort.MaxValue}"); // 0 to 65535
+            Console.WriteLine($"uint   : {uint.MinValue} to {uint.MaxValue}"); // 0 to 4294967295
+            Console.WriteLine($"ulong  : {ulong.MinValue} to {ulong.MaxValue}"); //0 to 18446744073709551615
+
+
+            //decimal for a number with a fractional component.
+            //Precision is the number of value places stored after the decimal point.
+            //float and double values are stored internally in a binary (base 2) format, while decimal is stored in a decimal (base 10) format. 
             float salary = 23.12F;
             Console.WriteLine(salary);
             Console.WriteLine(float.MinValue);
@@ -55,7 +68,10 @@ namespace FirstConsoleApp
 
             Console.WriteLine(5 / 10);
 
-            //Console.ReadKey();
+
+
+            Console.WriteLine("\nPress Enter to continue!");
+            Console.ReadKey();
         }
     }
 }

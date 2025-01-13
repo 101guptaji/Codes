@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\bin\Debug\net9.0\DataTypesExample.exe
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\bin\Debug\net9.0\DataTypesExample.deps.json
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\bin\Debug\net9.0\DataTypesExample.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\bin\Debug\net9.0\DataTypesExample.dll
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\bin\Debug\net9.0\DataTypesExample.pdb
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\obj\Debug\net9.0\DataTypesExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\obj\Debug\net9.0\DataTypesExample.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\obj\Debug\net9.0\DataTypesExample.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\obj\Debug\net9.0\DataTypesExample.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\obj\Debug\net9.0\DataTypesExample.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\obj\Debug\net9.0\DataTypesExample.dll
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\obj\Debug\net9.0\refint\DataTypesExample.dll
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\obj\Debug\net9.0\DataTypesExample.pdb
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\obj\Debug\net9.0\DataTypesExample.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\DataTypesExample\obj\Debug\net9.0\ref\DataTypesExample.dll

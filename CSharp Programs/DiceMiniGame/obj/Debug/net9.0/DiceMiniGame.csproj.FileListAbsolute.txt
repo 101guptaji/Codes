@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\obj\Debug\net9.0\DiceMiniGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\obj\Debug\net9.0\DiceMiniGame.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\obj\Debug\net9.0\DiceMiniGame.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\obj\Debug\net9.0\DiceMiniGame.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\obj\Debug\net9.0\DiceMiniGame.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\bin\Debug\net9.0\DiceMiniGame.exe
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\bin\Debug\net9.0\DiceMiniGame.deps.json
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\bin\Debug\net9.0\DiceMiniGame.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\bin\Debug\net9.0\DiceMiniGame.dll
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\bin\Debug\net9.0\DiceMiniGame.pdb
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\obj\Debug\net9.0\DiceMiniGame.dll
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\obj\Debug\net9.0\refint\DiceMiniGame.dll
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\obj\Debug\net9.0\DiceMiniGame.pdb
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\obj\Debug\net9.0\DiceMiniGame.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\DiceMiniGame\obj\Debug\net9.0\ref\DiceMiniGame.dll

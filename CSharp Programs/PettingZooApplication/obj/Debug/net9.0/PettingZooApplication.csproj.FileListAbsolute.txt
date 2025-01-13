@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\bin\Debug\net9.0\PettingZooApplication.exe
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\bin\Debug\net9.0\PettingZooApplication.deps.json
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\bin\Debug\net9.0\PettingZooApplication.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\bin\Debug\net9.0\PettingZooApplication.dll
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\bin\Debug\net9.0\PettingZooApplication.pdb
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\obj\Debug\net9.0\PettingZooApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\obj\Debug\net9.0\PettingZooApplication.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\obj\Debug\net9.0\PettingZooApplication.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\obj\Debug\net9.0\PettingZooApplication.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\obj\Debug\net9.0\PettingZooApplication.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\obj\Debug\net9.0\PettingZooApplication.dll
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\obj\Debug\net9.0\refint\PettingZooApplication.dll
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\obj\Debug\net9.0\PettingZooApplication.pdb
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\obj\Debug\net9.0\PettingZooApplication.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\PettingZooApplication\obj\Debug\net9.0\ref\PettingZooApplication.dll

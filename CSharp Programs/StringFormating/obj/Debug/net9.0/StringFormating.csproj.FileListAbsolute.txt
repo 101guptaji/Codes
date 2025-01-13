@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\StringFormating\bin\Debug\net9.0\StringFormating.exe
+D:\HG Documents\Codes\CSharp Programs\StringFormating\bin\Debug\net9.0\StringFormating.deps.json
+D:\HG Documents\Codes\CSharp Programs\StringFormating\bin\Debug\net9.0\StringFormating.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\StringFormating\bin\Debug\net9.0\StringFormating.dll
+D:\HG Documents\Codes\CSharp Programs\StringFormating\bin\Debug\net9.0\StringFormating.pdb
+D:\HG Documents\Codes\CSharp Programs\StringFormating\obj\Debug\net9.0\StringFormating.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\StringFormating\obj\Debug\net9.0\StringFormating.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\StringFormating\obj\Debug\net9.0\StringFormating.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\StringFormating\obj\Debug\net9.0\StringFormating.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\StringFormating\obj\Debug\net9.0\StringFormating.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\StringFormating\obj\Debug\net9.0\StringFormating.dll
+D:\HG Documents\Codes\CSharp Programs\StringFormating\obj\Debug\net9.0\refint\StringFormating.dll
+D:\HG Documents\Codes\CSharp Programs\StringFormating\obj\Debug\net9.0\StringFormating.pdb
+D:\HG Documents\Codes\CSharp Programs\StringFormating\obj\Debug\net9.0\StringFormating.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\StringFormating\obj\Debug\net9.0\ref\StringFormating.dll

@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\bin\Debug\net9.0\testproject.exe
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\bin\Debug\net9.0\testproject.deps.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\bin\Debug\net9.0\testproject.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\bin\Debug\net9.0\testproject.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\bin\Debug\net9.0\testproject.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\obj\Debug\net9.0\testproject.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\obj\Debug\net9.0\testproject.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\obj\Debug\net9.0\testproject.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\obj\Debug\net9.0\testproject.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\obj\Debug\net9.0\testproject.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\obj\Debug\net9.0\testproject.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\obj\Debug\net9.0\refint\testproject.dll
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\obj\Debug\net9.0\testproject.pdb
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\obj\Debug\net9.0\testproject.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\dotnetprojects\testproject\obj\Debug\net9.0\ref\testproject.dll

@@ -1,0 +1,15 @@
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\bin\Debug\net9.0\RetailSupportApplication.exe
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\bin\Debug\net9.0\RetailSupportApplication.deps.json
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\bin\Debug\net9.0\RetailSupportApplication.runtimeconfig.json
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\bin\Debug\net9.0\RetailSupportApplication.dll
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\bin\Debug\net9.0\RetailSupportApplication.pdb
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\obj\Debug\net9.0\RetailSupportApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\obj\Debug\net9.0\RetailSupportApplication.AssemblyInfoInputs.cache
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\obj\Debug\net9.0\RetailSupportApplication.AssemblyInfo.cs
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\obj\Debug\net9.0\RetailSupportApplication.csproj.CoreCompileInputs.cache
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\obj\Debug\net9.0\RetailSupportApplication.sourcelink.json
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\obj\Debug\net9.0\RetailSupportApplication.dll
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\obj\Debug\net9.0\refint\RetailSupportApplication.dll
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\obj\Debug\net9.0\RetailSupportApplication.pdb
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\obj\Debug\net9.0\RetailSupportApplication.genruntimeconfig.cache
+D:\HG Documents\Codes\CSharp Programs\RetailSupportApplication\obj\Debug\net9.0\ref\RetailSupportApplication.dll
