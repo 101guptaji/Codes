@@ -112,7 +112,7 @@ public class CloningLinkedListWithRandom {
         Node newHead = null;
         
         while(oldHead!=null) {
-            newHead = CloningLinkedListWithRandom.addToTheLast(newHead, new Node(oldHead.data));
+            newHead = addToTheLast(newHead, new Node(oldHead.data));
             oldHead = oldHead.next;
         }
         

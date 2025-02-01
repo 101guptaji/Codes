@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LRUCacheImplementation",
+            "request": "launch",
+            "mainClass": "javaDSACodeChef/javaDSA.LRUCacheImplementation",
+            "projectName": "javaDSA"
+        },
+        {
+            "type": "java",
+            "name": "CycleInLinkedList",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.CycleInLinkedList",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "AddNumberLinkedLists",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.AddNumberLinkedLists",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "MergeSortedLinkedList",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.MergeSortedLinkedList",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
+            "name": "RotateLinkedList",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.RotateLinkedList",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
