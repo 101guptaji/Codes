@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CheckBST",
+            "request": "launch",
+            "mainClass": "dsaProblems/dsaProblems.CheckBST",
+            "projectName": "dsaProblems"
+        },
+        {
+            "type": "java",
             "name": "LRUCacheImplementation",
             "request": "launch",
             "mainClass": "javaDSACodeChef/javaDSA.LRUCacheImplementation",

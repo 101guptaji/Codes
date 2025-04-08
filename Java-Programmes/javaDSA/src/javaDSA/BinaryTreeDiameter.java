@@ -1,12 +1,13 @@
 /*
- * -Diameter = No. of nodes in the longest path between 2 nodes
-    -Diameter of a tree = No. of nodes in the longest path between leftmost node and rightmost node
-
-    https://www.youtube.com/watch?v=-DzowlcaUmE
+ * 
+ * Given a binary tree, the task is to determine the diameter of the tree. 
+   The diameter/width of a tree is defined as the number of edges on the longest path between any two nodes. 
  */
 package javaDSA;
 
 public class BinaryTreeDiameter {
+    static int diameter;
+
     //Function to find the height of the tree (total height = total levels)
     static int findHeight(TreeNode root){
         if(root == null){
@@ -16,51 +17,22 @@ public class BinaryTreeDiameter {
         int leftHeight = findHeight(root.left);
         int rightHeight = findHeight(root.right);
 
+        diameter = Math.max(diameter, leftHeight+rightHeight);
+
         return Math.max(leftHeight, rightHeight)+1;
     }
 
     //function to find diameter of the tree
-    //TC: O(n^2)
+    //TC: O(n), SC: O(h)
     static int getDiameter(TreeNode root){
         if(root == null){
             return 0;
         }
-        int diam1 = getDiameter(root.left);
-        int diam2 = getDiameter(root.right);
-        int diam3 = findHeight(root.left)+findHeight(root.right)+1;
+        diameter = 0;
 
-        return Math.max(Math.max(diam1, diam2), diam3);
+        findHeight(root);
 
-    }
-
-    //Approach 2:
-    static class TreeInfo{
-        int height, diameter;
-
-        TreeInfo(int ht, int dm){
-            height = ht;
-            diameter = dm;
-        }
-    }
-    //function to find diameter of the tree
-    //TC: O(n)
-    static TreeInfo getDiameter2(TreeNode root){
-        if(root == null){
-            return new TreeInfo(0, 0);
-        }
-
-        TreeInfo left = getDiameter2(root.left);
-        TreeInfo right = getDiameter2(root.right);
-
-        int myHeight = Math.max(left.height, right.height)+1;
-
-        int diam1 = left.diameter;
-        int diam2 = right.diameter;
-        int diam3 = left.height+right.height+1;
-
-        int myDiameter = Math.max(Math.max(diam1, diam2), diam3);
-
-        return new TreeInfo(myHeight, myDiameter);
+        return diameter;
 
     }
     
@@ -75,9 +47,18 @@ public class BinaryTreeDiameter {
             2               3
         4       5               6
          */
-
-        //System.out.println("\nDiameter of the tree is: "+getDiameter(root));
-
-        System.out.println("\nDiameter of the tree is: "+getDiameter2(root).diameter);
+        
+        System.out.println("\nDiameter of the tree is: "+getDiameter(root));
     }
 }
+
+/*
+ * Step by step approach:
+    Initialize a variable diameter, which will store the diameter of the tree. (initially set to 0).
+    Recursively traverse the binary tree. For each node, find the height of the left and right subtree. 
+    Then compare the sum of (height of left subtree + height of right subtree) with the diameter variable. 
+    If it is greater than diameter, then update the value of diameter.
+
+    Time Complexity: O(n), where n is the number of nodes in tree.
+    Auxiliary Space: O(h) due to recursive calls.
+ */

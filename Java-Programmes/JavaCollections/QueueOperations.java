@@ -88,6 +88,7 @@ class QueueOperations {
 		        int k = sc.nextInt();
 		        obj.insert(q, k);
 		    }
+			
 		   
 		    int x = sc.nextInt();
 		    for(int i = 0;i<x;i++){

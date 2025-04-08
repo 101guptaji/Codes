@@ -7,7 +7,9 @@ Create React Application commands:
 	1. npx create-react-app my-app
 	2. cd my-app
 	3. npm start
-	
+	4. if error, "npm i web-vitals --save-dev" then "npm start"
+
+
 Install Tailwind CSS:
 	npm install -D tailwindcss
 	npx tailwindcss init

@@ -19,93 +19,94 @@
 	Explaination: There are no possible solutions for n = 2.
  */
 package dsaProblems;
+
 import java.util.*;
 
 public class NQueensProblem {
-	public static boolean isSafe(int row, int col, char[][] board) {
-		int n = board.length;
-		//horizontal
-		for(int c=0;c<n;c++) {
-			if(board[row][c] == 'Q')
-				return false;
-		}
-		//vertical
-		for(int r=0;r<n;r++) {
-			if(board[r][col] == 'Q')
-				return false;
-		}
+	// Time Complexity: O(n!*n), n! for generating all permutations and O(n) for validation of each permutation.
+	// public static boolean isSafe(ArrayList<Integer> board, int row, int col) {
+	// 	for (int i = 0; i < board.size(); i++) {
+	// 		int oldRow = board.get(i);
+	// 		int oldCol = i + 1;
+	// 		if (oldRow == row || Math.abs(row - oldRow) == Math.abs(col - oldCol)) {
+	// 			return false;
+	// 		}
+	// 	}
 
-		//upper left
-		for(int r=row, c=col;r>=0 && c>=0;r--,c--) {
-			if(board[r][c] == 'Q')
-				return false;
-		}
+	// 	return true;
+	// }
 
-		//upper right
-		for(int r=row, c=col;r>=0 && c<n;r--,c++) {
-			if(board[r][c] == 'Q')
-				return false;
-		}
-
-		//lower left
-		for(int r=row, c=col;r<n && c>=0;r++,c--) {
-			if(board[r][c] == 'Q')
-				return false;
-		}
-		
-		//lower right
-		for(int r=row, c=col;r<n && c<n;r++,c++) {
-			if(board[r][c] == 'Q')
-				return false;
-		}
-		
-		return true;
-	}
-	
-	public static void saveBoard(char[][] board, List<List<String>> ans) {
-		List<String> res = new ArrayList<String>();
-		for(int i=0;i<board.length;i++) {
-			String row = "";
-			for(int j=0;j<board.length;j++) {
-				if(board[i][j] == 'Q')
-					row += "Q";
-				else
-					row += ".";
-			}
-			res.add(row);
-		}
-		ans.add(res);
-	}
-	
-	public static void helper(char[][] board, List<List<String>> ans, int col) {
-		if(col == board.length) {
-			saveBoard(board, ans);
+	public static void helper(int col, int n, ArrayList<Integer> board, ArrayList<ArrayList<Integer>> ans,
+			boolean[] visited, boolean[] diag1, boolean[] diag2) {
+		if (col > n) {
+			ans.add(new ArrayList<>(board));
 			return;
 		}
-		for(int row=0;row<board.length;row++) {
-			if(isSafe(row,col,board)) {
-				board[row][col] = 'Q';
-				helper(board, ans, col+1);
-				board[row][col] = '.';
+
+		for (int row = 1; row <= n; row++) {
+			if (!visited[row] && !diag1[row + col] && !diag2[row - col + n]) {
+				visited[row] = diag1[row + col] = diag2[row - col + n] = true;
+
+				board.add(row);
+				helper(col + 1, n, board, ans, visited, diag1, diag2);
+				board.remove(board.size() - 1);
+
+				visited[row] = diag1[row + col] = diag2[row - col + n] = false;
 			}
 		}
 	}
-	
-	public static List<List<String>> getQueensPos(int n){
-		List<List<String>> ans = new ArrayList<>();
-		char[][] board = new char[n][n];
-		
-		helper(board, ans, 0);
-		
+
+	public static ArrayList<ArrayList<Integer>> getQueensPos(int n) {
+		ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
+		ArrayList<Integer> board = new ArrayList<>();
+
+		boolean visited[] = new boolean[n + 1];
+
+		// Major diagonals (row + col) and Minor diagonals (row - col + n)
+		boolean[] diag1 = new boolean[2 * n + 1];
+		boolean[] diag2 = new boolean[2 * n + 1];
+
+		helper(1, n, board, ans, visited, diag1, diag2);
+
 		return ans;
 	}
-	
-	public static void main(String[] args) {
-		int n =4;
-		List<List<String>> queensPos = getQueensPos(n);
-		for(int i=0;i<queensPos.size();i++) {
-			System.out.println(queensPos.get(i));
+
+	public static void printBoard(ArrayList<ArrayList<Integer>> ans) {
+		for (int i = 0; i < ans.size(); i++) {
+			List<String> res = new ArrayList<String>();
+			for (int j = 0; j < ans.get(i).size(); j++) {
+				String row = "";
+				int col = ans.get(i).get(j);
+				for (int k = 1; k <= ans.get(i).size(); k++) {
+					if (k == col) {
+						row += 'Q';
+					} else {
+						row += '.';
+					}
+				}
+				res.add(row);
+			}
+			System.out.println(res);
 		}
+	}
+
+	public static void main(String[] args) {
+		int n = 4;
+		ArrayList<ArrayList<Integer>> queensPos = getQueensPos(n);
+		System.out.println(queensPos);
+
+		// printBoard(queensPos);
 	}
 
 }
+
+
+/*
+ * Approach:  Using Backtracking with Pruning
+ * 	Start from the first column and try placing a queen in each row.
+	Keep arrays to track which rows are already occupied. Similarly, for tracking major and minor diagonals are already occupied.
+	If a queen placement conflicts with existing queens, skip that row and backtrack the queen to try the next possible row (Prune and backtrack during conflict).
+
+	Time complexity : O(n!) For generating all permutations.
+	Auxiliary Space : O(n)
+ */

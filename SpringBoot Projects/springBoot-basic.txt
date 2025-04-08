@@ -1,3 +1,26 @@
+Difference between Spring Framework and Spring Boot
+
+Spring Framework 
+-> Allows to develop apps using 3 types of Configs i.e. xml driven configs, Annotations driven cofigs, 100% code driven configs
+-> Programmer explicitly created IOC Container except in Spring MVC application
+-> Does not give embedded server. So to run application we need to arrange web server explicitly.
+-> Does not give any in-memory databases
+-> We need to add dependencies (jar files) manually using gradle/maven
+-> Bit lightweight as compared of Spring Boot because of No AutoConfiguratin support
+
+Spring Boot
+-> Supports only one type of confgs that is through annotations and giving inputs for autoConfigutaration for application.properties
+ file
+-> Programmer does not create IoC Container , rather he gets it by calling SpringApplication.run
+()
+-> Gives Tomcat, Jetty and etc servers as Embedded servers
+->Gives in-memory databases like h2
+-> Bit heavy weight due to AutoConfiguration support which created Objects which might not even needed
+-> Spring boot gives starters which provide main jars, dependent jars and related jars as well.
+
+
+
+
 Spring Boot:
 - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
 - Features

@@ -35,6 +35,7 @@ public class PriorityQuequeExample {
 		deq.push(4);
 		deq.push(5);
 				
+		
 		Iterator itr = deq.descendingIterator();
 		while(itr.hasNext())
 		{

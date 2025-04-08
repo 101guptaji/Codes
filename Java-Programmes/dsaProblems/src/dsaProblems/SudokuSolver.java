@@ -24,6 +24,10 @@ public class SudokuSolver {
 		return true;
 	}
 
+	// Time complexity: O(n*9(n*n)), For every unassigned index, there are 9
+	// possible options and for each index, we are checking other columns, rows and
+	// boxes.
+	// Auxiliary Space: O(1)
 	public static boolean solve(char[][] board, int row, int col) {
 		if (col == board.length) {
 			row = row + 1;
@@ -39,13 +43,13 @@ public class SudokuSolver {
 		}
 
 		// fill empty place
-		for (int i = 1; i <= 9; i++) {
-			if (isSafe(board, row, col, (char) (i + '0'))) {
-				board[row][col] = (char) (i + '0');
+		for (int num = 1; num <= board.length; num++) {
+			if (isSafe(board, row, col, (char) (num + '0'))) {
+				board[row][col] = (char) (num + '0');
 				if (solve(board, row, col + 1))
 					return true;
-				else
-					board[row][col] = '0';
+
+				board[row][col] = '0'; // backtrack
 			}
 		}
 
