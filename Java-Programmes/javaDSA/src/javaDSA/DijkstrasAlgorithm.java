@@ -1,7 +1,7 @@
 /*
  * 1. Dijkstra's Algorithm:
 	- Sortest distance from the source to all vertices.
-    - does not properly when distance (weight) is negative
+    - does not work properly when distance (weight) is negative
 	- implementation using BFS with priority queue.
     - Time Complexity: O(E + E*log(V))
  */
