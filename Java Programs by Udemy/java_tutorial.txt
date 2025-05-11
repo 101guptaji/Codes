@@ -1,0 +1,3 @@
+save filename as of class name
+To compile:	javac filename.java
+To execute:	java filename
