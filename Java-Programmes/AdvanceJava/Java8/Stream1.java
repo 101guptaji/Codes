@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Comparator;
@@ -65,16 +66,17 @@ public class Stream1 {
         // `**reduce**` 
         // *Question:* Compute the sum of all numbers in a list.
         // List<Integer> list = Arrays.asList(10,5,4,6,55);
+        // list = new ArrayList<>();
         Optional<Integer> sum = list.stream().reduce((a,b)->a+b);
         System.out.println("SUM: "+sum.get());
 
         // `**max and min**` 
         // *Question:* Find the max and min element in a list.
         Optional<Integer> max = list.stream().max(Comparable::compareTo);
-        System.out.println("Max: "+max.get());
+        System.out.println("Max: "+max.orElse(0));
 
         Optional<Integer> min = list.stream().min(Comparable::compareTo);
-        System.out.println("Min: "+min.get());
+        System.out.println("Min: "+min.orElse(0));
 
         // `**toArray**` 
         // *Question:* Convert a list of string into a array.
@@ -90,7 +92,8 @@ public class Stream1 {
         // `**findFirst**` 
         // *Question:* Find first odd number in the list.
         Optional<Integer> firstOdd = list.stream().filter(x->x%2!=0).findFirst();
-        System.out.println(firstOdd);
+        if(firstOdd.isPresent())
+            System.out.println(firstOdd.get());
 
         // `**Collectors.joining**` 
         // *Question:* Concatenate all names in the list into a single string seperate by comma.
